@@ -6,7 +6,9 @@ export default function Home() {
     return (
         <>
             <Head>
-                <title>DEEPEDU | deepedu.uz - onlayn ta'lim platformasi</title>
+                <title>
+                    DEEPEDU | deepedu.uz - onlayn ta&apos;lim platformasi
+                </title>
                 <link rel="icon" href="/favicon.ico" sizes="any" />
             </Head>
             <Navbar />

@@ -33,7 +33,7 @@ const Course = ({ courseId }) => {
                     <span className="course__price--discount">
                         <span className="font-normal">Asl qiymati: </span>
                         <span className="line-through">
-                            {courses[courseId].price} So'm
+                            {courses[courseId].price} So&apos;m
                         </span>
                     </span>
                     <br />
@@ -41,7 +41,7 @@ const Course = ({ courseId }) => {
                         <span className="font-normal">Chegirmada: </span>
                         {courses[courseId].price -
                             courses[courseId].dicount}{" "}
-                        so'm
+                        so&apos;m
                     </span>
                     <br />
                     <span>

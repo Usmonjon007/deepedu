@@ -6,6 +6,7 @@ import Link from "next/link";
 
 import { courses, courseCategories } from "@/Components";
 import Course from "@/Components/Course/Course";
+import Image from "next/image";
 
 const Courses = () => {
     // console.log(courses);
@@ -111,7 +112,12 @@ const Courses = () => {
                                             e.target.parentElement.parentElement.scrollLeft -= 548;
                                         }}
                                     >
-                                        <img src="/assets/left.svg" />
+                                        <Image
+                                            width={35}
+                                            height={35}
+                                            alt="btn"
+                                            src="/assets/left.svg"
+                                        />
                                     </button>
                                     {category.courses.map((courseId) => {
                                         return (
@@ -134,7 +140,12 @@ const Courses = () => {
                                             e.target.parentElement.parentElement.scrollLeft += 548;
                                         }}
                                     >
-                                        <img src="/assets/right.svg" />
+                                        <Image
+                                            width={35}
+                                            height={35}
+                                            alt="btn"
+                                            src="/assets/right.svg"
+                                        />
                                     </button>
                                 </div>
                             </div>

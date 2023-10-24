@@ -39,7 +39,7 @@ const courses = [
         title: "Backend NodeJS dasturlash kursi",
         description:
             "NodeJSda Backend dasturlash kursi (NodeJS, ExpressJS ...) - Yuqori",
-        price: 8000000,
+        price: 1200000,
         dicount: 800000,
         img: "/assets/courses/backend/backend.png",
         intro: "/assets/courses/frontend/videos/intro.mp4",
