@@ -21,7 +21,7 @@ const Header = () => {
                     >
                         Bizning platformamizda
                         <br />
-                        sifatli ta'lim oling
+                        sifatli ta&apos;lim oling
                     </motion.h2>
                 </div>
                 <br />
@@ -34,7 +34,7 @@ const Header = () => {
                         href="/courses"
                         className="capitalize home-link rounded-[50px]"
                     >
-                        O'rganishni Boshlash
+                        O&apos;rganishni Boshlash
                     </Link>
                 </motion.div>
             </div>
